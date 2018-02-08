@@ -1,0 +1,24 @@
+body {
+	/* background: #000;
+	color: #fff; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Playfair Display';
+}
+
+.loading {
+  background: #1b1b1b;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  transition: opacity .5s ease;
+  z-index: 1000;
+  opacity: 1;
+}
+
+h1 {
+	font-size: 60px;
+	/* font-size: 4vw; */
+	transition: all .2s ease;
+}
