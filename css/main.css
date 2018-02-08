@@ -1,24 +1,57 @@
 body {
-	/* background: #000;
-	color: #fff; */
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	font-family: 'Playfair Display';
 }
 
 .loading {
-  background: #1b1b1b;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  transition: opacity .5s ease;
-  z-index: 1000;
-  opacity: 1;
+	background: #1b1b1b;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	transition: opacity .5s ease;
+	z-index: 1000;
+	opacity: 1;
+	color: #fff;
+  
+  	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 40px;
+	padding-bottom: 10%;
 }
 
-h1 {
+h1, h2 {
 	font-size: 60px;
+	font-weight: 700;
 	/* font-size: 4vw; */
-	transition: all .2s ease;
+}
+
+.main {
+	/* display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center; */
+}
+
+.section {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.white {
+	background: #fff;
+	color: #000;
+}
+
+.black {
+	background: #000;
+	color: #fff;
+}
+
+.yellow {
+	background: #ffca00;
+	color: #000;
 }
