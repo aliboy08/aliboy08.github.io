@@ -55,3 +55,18 @@ h1, h2 {
 	background: #ffca00;
 	color: #000;
 }
+
+.red {
+	background: #b72222;
+	color: #fff;
+}
+
+.cyan {
+	background: #58dec0;
+	color: #fff;
+}
+
+.orange {
+	background: #dc491c;
+	color: #fff;
+}

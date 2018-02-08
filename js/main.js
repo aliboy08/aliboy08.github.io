@@ -108,4 +108,4 @@ var AnimateElements = function(selector, inViewClass, outViewClass, offset = 0){
 	}
 }
 
-AnimateElements('.on-screen-blur', 'blur-out-expand', null, 50).init();
+AnimateElements('.on-screen-blur', 'blur-out-contract', null, 50).init();
