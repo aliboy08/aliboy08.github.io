@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font1;
+  line-height: 1.6;
+  background: $dark;
+}
+
+.wrap {
+  width: 1230px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrap.full {
+  width: 100%;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section.dark {
+  background: #232222;
+  color: #fff;
+}
+
+.section.dark a {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  margin-bottom: 10px;
+}
